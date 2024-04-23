@@ -1,0 +1,112 @@
+.h2{
+    margin-left: 57px;
+    margin-top:20px;
+}
+
+.span{
+    align-items: center;
+    margin-left: 45px;
+    margin-bottom:50px;
+}
+.div{
+    margin-left: 12px;
+}
+/* Add this CSS in your styles.css or styles.scss file */
+
+/* Container styles */
+div.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  h2 {
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .span {
+    font-size: 16px;
+    color: #555555;
+  }
+  
+  /* Divider styles */
+  mat-divider {
+    margin: 15px 0;
+  }
+  
+  /* Details section styles */
+  .div {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+  
+  /* Social links section styles */
+  div.shadow:nth-child(2) {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  /* LinkedIn link styles */
+  .fa-linkedin {
+    margin-left: 5px;
+    color: #b1b4b9;
+  }
+  
+  /* Miscellaneous styles */
+  i.fa-xs {
+    font-size: 14px;
+  }
+  
+  i.fa-2xl {
+    font-size: 20px;
+  }
+  
+  /* Add more styles as needed */
+  
+
+  .span:hover{
+ color: rgb(85, 40, 40);
+  }
+
+  .table-row__imgg{
+    width: 46px;
+    height: 41px;
+    display: inline-block;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   vertical-align: middle;
+   
+   margin-bottom: 10px;
+
+  }
+
+  .table-row__img{
+    background-image: url('https://www.clipartmax.com/png/full/335-3351736_go-back-gallery-for-contact-person-icon-person-icon.png');
+    
+   width: 36px;
+   height: 36px;
+   display: inline-block;
+   border-radius: 50%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+  vertical-align: middle;
+  }
+
+  .btn{
+    background-color: #0d4f81;
+    padding-right: 15px;
+    color: white;
+  }
+
+
+  .table__th:hover {
+    color: #235d79;
+    font-weight: bold;
+}
